@@ -1,7 +1,7 @@
 PouchDB Ionic 2 "hello world" app
 ======
 
-This project is the copy the https://github.com/nolanlawson/pouchdb-ionic-hello-world create in ionic 1
+*This project is the copy the https://github.com/nolanlawson/pouchdb-ionic-hello-world create in ionic 1*
 
 This is a basic Ionic 2 app. It was created using the `ionic` CLI, but for running this project use:
 
