@@ -27,8 +27,8 @@
     "ionic-gulp-scripts-copy": "^2.0.0",
     "run-sequence": "1.1.5"
   },
-  "name": "pouch-ionic2-hello-worldb",
-  "description": "pouch-ionic2-hello-worldb: An Ionic project",
+  "name": "pouch-ionic2-hello-world",
+  "description": "pouch-ionic2-hello-world: An Ionic project",
   "cordovaPlugins": [
     "cordova-plugin-device",
     "cordova-plugin-console",
