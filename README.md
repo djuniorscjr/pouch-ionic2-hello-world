@@ -1,7 +1,9 @@
 PouchDB Ionic 2 "hello world" app
 ======
 
-This is a basic Ionic app. It was created using the `ionic` CLI, by running:
+This project is the copy the https://github.com/nolanlawson/pouchdb-ionic-hello-world create in ionic 1
+
+This is a basic Ionic 2 app. It was created using the `ionic` CLI, but for running this project use:
 
 	git clone https://github.com/djuniorscjr/pouch-ionic2-hello-world.git && cd pouch-ionic2-hello-word
 
@@ -19,3 +21,7 @@ To run the app yourself on a variety of platforms, just check out the code and f
 What you'll see:
 
 <a href="./screenshots/android.png"><img src="./screenshots/android.png" height=500/></a>
+
+#### Other platforms
+
+Feel free to try it out and take screenshots. :)
