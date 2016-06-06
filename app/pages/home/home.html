@@ -1,0 +1,39 @@
+<ion-navbar *navbar>
+  <ion-title>
+    Home
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="home">
+  <ion-card>
+    <ion-card-header>
+        PouchDB status
+    </ion-card-header>
+    <ion-list no-lines>
+        <ion-item [hidden]="!pouchdbSupported">
+            <ion-icon name="checkmark" item-left secondary></ion-icon>
+            PouchDB is working
+        </ion-item>
+        <ion-item [hidden]="pouchdbSupported">
+            <ion-icon name="close" item-left danger></ion-icon>
+            PouchDB is not working
+        </ion-item>
+        <ion-item [hidden]="!idbSupported">
+            <ion-icon name="checkmark" item-left secondary></ion-icon>
+            IndexedDB is supported
+        </ion-item>
+        <ion-item [hidden]="idbSupported">
+            <ion-icon name="close" item-left danger></ion-icon>
+            PouchDB is not supported
+        </ion-item>
+        <ion-item [hidden]="!websqlSupported">
+            <ion-icon  name="checkmark" item-left secondary></ion-icon>
+            WebSQL is supported
+        </ion-item>
+        <ion-item [hidden]="websqlSupported">
+            <ion-icon  name="close" item-left danger></ion-icon>
+            WebSQL is not supported
+        </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>
